@@ -1,0 +1,23 @@
+
+
+  font-family: 'Roboto Condensed', sans-serif;
+
+
+   700-Bold
+ 
+   400-Regular/Normal
+
+   300-Light
+
+   600-Semi-Bold
+
+   900-Black
+
+   500-Medium
+
+       font-family: 'Barlow', sans-serif;
+
+    font-family: 'Roboto Condensed', sans-serif;
+
+
+https://getbootstrap.com/docs/4.5/components/collapse/#accordion-example

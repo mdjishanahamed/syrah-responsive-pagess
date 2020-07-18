@@ -1,0 +1,800 @@
+
+
+
+/*=========================
+1. HEADER AREA CSS START
+===========================*/
+.header_area{
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        background: transparent;
+        z-index: 999;
+}
+
+.header_area .navbar {
+    padding-top: 42px;
+    padding-bottom: 42px;
+  }
+
+
+.navbar .navbar-nav .nav-item {
+    display: inline-block;
+}
+.navbar .navbar-nav .nav-item .nav-link{
+ font-size: 20px;
+  color:#ffffff;
+  text-transform: capitalize;
+  padding-left: 56px;
+  transition: all .3s linear;
+}
+
+.navbar .navbar-nav .nav-item .nav-link.active{
+  color: #b7c5a9;
+}
+
+.navbar .navbar-nav .nav-item .nav-link:hover{
+    color: #b7c5a9;
+}
+
+
+/*=========================
+1. HEADER AREA CSS END
+===========================*/
+
+/* STICKY-MENU */
+
+.header_area.sticky {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background: #1D2228;
+	z-index: 99999;
+	box-shadow: 0px 0px 191px 0px rgba(0, 0, 0, 0.06);
+	animation: sticky 2s;
+}
+
+
+
+@keyframes sticky {
+  from {
+    transform: translateY(-100%)
+  }
+
+  to {
+    transform: translateY(0%)
+  }
+}
+
+
+
+/* STICKY-MENU */
+
+
+
+
+
+
+/*=========================
+2.BANNER AREA CSS START
+===========================*/
+.banner_area{}
+
+.banner_wrap{
+    position: relative;
+}
+.banner_text {
+    padding-top: 191px;
+    padding-bottom: 137px;
+  }
+  .banner_text span {
+    font-family: "Great Vibes", cursive;
+	color: #ffffff;
+	font-size: 44px;
+	display: inline-block;
+}
+.banner_text h1 {
+	font-size: 100px;
+	font-family: "Abril Fatface", cursive;
+	color: #ffffff;
+	line-height: 1;
+	margin-top: -42px;
+	margin-bottom: 18px;
+}
+  .banner_text p {
+    color: #ffffff;
+    padding-bottom: 16px;
+  }
+  .banner_text .textss {
+    letter-spacing: 12px;
+  }
+  .banner_text a {
+    margin-top: 40px;
+  }
+  .banner_right {
+	position: absolute;
+	right: -110px;
+	top: 110px;
+}
+.banner_right img{
+    width: 100%;
+}
+
+/*=========================
+2.BANNER AREA CSS END
+===========================*/
+
+
+
+/*=========================
+3.STORY AREA CSS START
+===========================*/
+
+.story_img img {
+	width: 100%;
+	position: relative;
+	left: -7%;
+}
+.story_text p{
+  padding-top: 20px;
+}
+
+.story_text a{
+  background: #e4d2b9;
+  margin-top: 35px;
+}
+.story_text a:before{
+  background: #a78f6d;
+}
+
+/*=========================
+3.STORY AREA CSS END
+===========================*/
+
+
+
+
+/*=========================
+4.PRODUCT AREA CSS START
+===========================*/
+.product_area{
+}
+
+.single_product{
+  position: relative;
+  cursor: pointer;
+}
+ .single_product .product_bg{
+  position: absolute;
+  z-index: 999;
+  top: 25px;
+  left: 0;
+  right: 0;
+  bottom: 20%;
+  box-shadow: 0px 0px 72px 18px rgba(0, 0, 0, 0.05);
+  filter: grayscale(1);
+  transition: all 0.3s linear;
+  background: #fff;
+}
+
+.product_bg img {
+	width: 100% !important;
+}
+
+.single_product:hover .product_bg{
+  filter: grayscale(0);
+}
+.product_info{
+  margin: 0 15px;
+}
+.product_border{
+  border: 1px solid #ddd;
+  padding: 163px 0 30px 0;
+  transition: all 0.3s linear;
+}
+.single_product:hover .product_border{
+  border-color: #b6c4a8;
+}
+.product_img {
+	position: relative;
+	z-index: 9999;
+	text-align: center;
+}
+.product_detail{
+  padding-top: 15px;
+}
+.product_detail span {
+	font-size: 20px;
+	color: #444444;
+	display: block;
+	text-align: center;
+}
+
+/*=========================
+4.PRODUCT AREA CSS END
+===========================*/
+
+
+
+
+/*=========================
+5. EVENT AREA CSS START
+===========================*/
+.event_area{}
+
+.event_area .section_title.full_sec h2 {
+	color: #e4d2b9;
+}
+
+.event_area .full_sec h2::after, 
+.event_area .full_sec h2::before {
+	background: #e4d2b9;
+}
+
+.single_event {
+	position: relative;
+	padding: 0 12px;
+}
+
+.event_img img {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 20px;
+  z-index: 99;
+  box-shadow: 0px 0px 72px 18px rgba(0, 0, 0, 0.05);
+  filter: grayscale(1);
+  transition: all 0.3s linear;
+  cursor: pointer;
+}
+
+.single_event:hover .event_img img{
+  filter: grayscale(0);
+}
+
+.event_info {
+	border: 1px solid #ddd;
+	padding: 100px 0 81px 0;
+}
+
+.event_text {
+  position: relative;
+  z-index: 999;
+}
+
+.event_text .dates{
+  font-size: 80px;
+  line-height: 1;
+  color: #444444;
+}
+
+.event_text h3{
+  font-size: 34px;
+  color: #444444;
+  position: relative;
+  padding-bottom: 8px;
+  margin-bottom: 10px;
+}
+
+.event_text h3:before{
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  width: 50px;
+  height: 3px;
+  background: #e4d3bb;
+  content: "";
+  transform: translateX(-50%);
+}
+
+.event_text p{
+  font-size: 24px;
+  color: #222222;
+  padding-top: 47px;
+}
+
+.event_text .times{
+  font-size: 20px;
+}
+
+.event_text .prices{
+  font-size: 30px;
+  padding-top: 26px;
+}
+
+/*=========================
+5.EVENT AREA CSS END
+===========================*/
+
+
+
+
+/*=========================
+6.DEAL AREA CSS START
+===========================*/
+.deal_area{}
+
+.deal_img img {
+	position: relative;
+	top: 0;
+	left: -50px;
+}
+
+.deal_area .section_title h2{
+  color: #b7c5a9;
+}
+.deal_area .side_title h2:before {
+  background: #b7c5a9;
+}
+
+.deal_content{}
+
+.deal_text p{
+  padding-top: 24px;
+}
+
+
+
+.deal_counter {
+  margin-top: 50px;
+  margin-left: 15px;
+  margin-right: 15px;
+  position: relative;
+  background: blueviolet;
+}
+
+.c_days {
+  background: #fff;
+  width: 50%;
+}
+
+.c_hours {
+  background: #fff;
+  width: 50%;
+}
+
+.c_minutes {
+  width: 50%;
+  background: #fff;
+}
+
+.c_seconds {
+  width: 50%;
+  background: #fff;
+}
+
+#clockdiv {
+  font-family: sans-serif;
+  color: #fff;
+  font-weight: 100;
+  text-align: center;
+  font-size: 30px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#clockdiv>div {
+  padding: 10px;
+  border-radius: 3px;
+  display: inline-block;
+
+}
+
+#clockdiv div>span {
+  border-radius: 3px;
+  display: inline-block;
+  font-size: 46px;
+  color: #444;
+  font-weight: 700;
+  padding-top: 20px;
+}
+
+.smalltext {
+  padding-bottom: 25px;
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: capitalize;
+  color: #444;
+}
+
+.lineone {
+  position: absolute;
+  background: #ddd;
+  display: inline-block;
+  width: 120%;
+  height: 1px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.linetwo {
+	position: absolute;
+	background: #ddd;
+	width: 1px;
+	height: 110%;
+	display: inline-block;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+
+
+
+/*=========================
+6.DEAL AREA CSS END
+===========================*/
+
+
+
+
+
+
+/*=========================
+7.UPDATES AREA CSS START
+===========================*/
+.updates_area{}
+
+.updates_area .section_title h2{
+  color: #b7c5a9;
+}
+
+.updates_area .side_title h2:before {
+  background: #b7c5a9;
+}
+
+.section_text p{
+  margin-top: 20px;
+}
+.updates_button{
+  padding-top: 35px;
+}
+
+.updates_button button{
+  height: 70px;
+  width: 70px;
+  background: transparent;
+  border: 1px solid #b7c5a9;
+  color: #b7c5a9;
+  font-size: 20px;
+  border-radius: 50%;
+  margin-right: 5px;
+  transition: all 0.3s linear;
+}
+
+.updates_button button:hover{
+  background: #b7c5a9;
+  cursor: pointer;
+  color: #fff;
+}
+
+
+.updates_wrap{}
+
+.single_updates{
+   position: relative;
+   z-index: 1;
+   cursor: pointer;
+   /* margin-top: 50px; */
+   margin: 50px 0;
+}
+
+.single_updates::before{
+  position: absolute;
+  content: "";
+  left: 10px;
+  right: 10px;
+  top: -20px;
+  bottom: -20px;
+  z-index: -1;
+  background: transparent;
+  border: 1px solid #dddddd;
+}
+
+.updates_text{
+  background: #fff;
+  position: relative;
+  padding: 21px 29px 26px 29px;
+}
+
+.post_text{
+  background: #b7c5a9;
+  padding: 20px 0;
+  position: absolute;
+  left: 30px;
+  right: 30px;
+  top: -12%;
+  border-radius: 30px;
+  transition: all 0.3s linear;
+}
+
+.single_updates:hover .post_text{
+  background: #e4d2b9;
+}
+
+.post_text .admin{
+  color: #fff;
+  font-size: 13px;
+}
+
+.post_text span{
+  color: #fff;
+  font-size: 13px;
+}
+
+.updates_text h3 {
+	font-family: "Arimo", sans-serif;
+	padding-top: 24px;
+	font-weight: 400;
+	font-size: 22px;
+}
+
+.updates_text p{
+  padding-top: 13px;
+  color: #222222;
+  padding-bottom: 10px;
+}
+
+.updates_text a{
+  position: relative;
+  color: #222222;
+  font-size: 20px;
+  text-transform: capitalize;
+  display: inline-block;
+}
+
+.updates_text a::before{
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 1px;
+  background: #e4d2b9;
+  left: 105%;
+  top: 50%;
+  transition: all 0.3s linear;
+}
+
+.updates_text a:hover::before {
+  width: 50%;
+}
+
+/*=========================
+7.UPDATES AREA CSS END
+===========================*/
+
+
+
+
+/*=========================
+8.FOOTER AREA CSS START
+===========================*/
+
+/* FOOTER-TOP HERE */
+.footer_top{
+  padding-bottom: 30px;
+}
+
+.footer_logo{
+  padding: 60px 0 30px 0;
+  border-bottom: 1px solid #181c21;
+  margin-bottom: 23px;
+}
+
+/* FOOTER-CONTACT START */
+.footer_contact ul li{
+  border-bottom: 1px solid #181c21;
+}
+.footer_contact ul li:last-child {
+  border-bottom: none;
+}
+.footer_contact ul li:first-child .contact_wrap {
+  padding-top: 5px;
+}
+.contact_wrap{
+  padding: 30px 0;
+}
+.contact_icon{
+  height: 70px;
+  width: 70px;
+  color: #ffffff;
+  background: #e6d5be;
+  text-align: center;
+  line-height: 70px;
+  font-size: 21px;
+  border-radius: 50px;
+}
+.contact_text span a,
+.contact_text span{
+  color: #ffffff;
+  font-size: 18px;
+  display: block;
+}
+/* FOOTER-CONTACT END */
+
+
+/* FOOTER-MENU START */
+.footer_menubar ul li a{
+  font-size: 18px;
+  color: #fff;
+  padding-bottom: 32px;
+  padding-left: 50px;
+  transition: all 0.3s linear;
+}
+
+.footer_menubar ul li a:hover{
+  color: #e3d1b8;
+}
+/* FOOTER-MENU END */
+
+/* FOOTER-SEARCH START */
+.footer_srcbar{}
+
+.search_bar{
+  position: relative;
+}
+
+.search_bar input{
+  background: #1d2228;
+  border: 1px solid #444;
+  color: #ffffff;
+  padding: 22px 0 22px 20px;
+  width: 80%;
+}
+
+.search_bar input::placeholder{
+  color: #444;
+}
+
+.search_bar .src_btn{
+  position: absolute;
+  border: 0;
+  background: #e3d1b8;
+  color: #444444;
+  padding: 14px 30px;
+  top: 9px;
+  right: 0px;
+  transition: all .3s linear;
+  cursor: pointer;
+}
+
+.search_bar .src_btn:hover{
+  background: #B7C5A9;
+}
+
+.footer_map_img{
+  border: 5px solid #171a1e;
+}
+
+/* FOOTER-SEARCH END */
+
+/* FOOTER-TOP HERE */
+
+
+/* COPTRIGHT-AREA START */
+
+.copy_text p{
+  color: #fff;
+  padding-top: 22px;
+}
+
+.copy_menu{}
+
+.copy_menu ul li{
+  display: inline-block;
+  margin-right: -5px;
+}
+
+.copy_menu ul li a{
+  color: #ffffff;
+  padding: 25px 0;
+  text-align: center;
+  width: 52px;
+  border: 1px solid #171a1e;
+  border-top: none;
+  border-right: none;
+  transition: all 0.3s linear;
+}
+
+.copy_menu ul li a:hover{
+  background: #e4d2b9;
+  color: #444444;
+}
+
+/* COPTRIGHT-AREA END */
+
+
+/*=========================
+8.FOOTER AREA CSS END
+===========================*/
+
+/* TOP TO BOTTOM BUTTON HERE */
+
+.back-to-top{
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  width: 40px;
+  height: 40px;
+  line-height: 35px;
+  background-color: #1D2228;
+  color: #fff;
+  font-size: 28px;
+  border-radius: 5px;
+  z-index: 99;
+  text-align: center;
+  -webkit-transition: all 0.4s linear;
+  transition: all 0.4s linear;
+  display: none;
+}
+.back-to-top:hover{
+  color: #fff;
+  background-color: #B7C5A9;
+}
+
+/* TOP TO BOTTOM BUTTON HERE */
+
+
+
+
+
+
+
+
+
+
+/*=========================
+ AREA CSS START
+===========================*/
+/*=========================
+ AREA CSS END
+===========================*/
+
+
+
+/*=========================
+ AREA CSS START
+===========================*/
+/*=========================
+ AREA CSS END
+===========================*/
+
+/*=========================
+ AREA CSS START
+===========================*/
+/*=========================
+ AREA CSS END
+===========================*/
+
+
+/*=========================
+ AREA CSS START
+===========================*/
+/*=========================
+ AREA CSS END
+===========================*/
+
+
+/*=========================
+ AREA CSS START
+===========================*/
+/*=========================
+ AREA CSS END
+===========================*/
+
+
+/*=========================
+ AREA CSS START
+===========================*/
+/*=========================
+ AREA CSS END
+===========================*/
+
+/*=========================
+ AREA CSS START
+===========================*/
+/*=========================
+ AREA CSS END
+===========================*/
+

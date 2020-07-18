@@ -1,0 +1,378 @@
+
+
+/*// Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {}
+
+
+
+
+/*// Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+    .navbar .navbar-nav .nav-item .nav-link {
+        font-size: 20px;
+        padding-left: 36px;
+    }
+
+    .post_text {
+      left: 15px;
+      right: 8px;
+    }
+
+    .event_info {
+      border: 1px solid #ddd;
+      padding: 45px 0 70px 0;
+    }
+
+
+
+}
+
+
+
+
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    /* HEADER-ARER CSS START */
+    .navbar-light .navbar-toggler {
+        color: #fff;
+        border: 0;
+    }
+    .header_area .navbar-nav {
+        background: rgba(255, 255, 255, 0.95);
+        margin-top: 30px;
+      }
+      .header_area .navbar-nav .nav-item .nav-link {
+        font-size: 20px;
+        text-transform: capitalize;
+        padding: 15px 0;
+        color: #1d2228;
+        padding-left: 15px;
+        border-bottom: 1px solid #1d2228;
+        display: block;
+      }
+      .navbar .navbar-nav .nav-item .nav-link.active{
+        color: #fff;
+        background: #1d2228;
+      }
+      .header_area .navbar-nav .nav-item:last-child .nav-link {
+        border-bottom: 0;
+      }
+    .header_area .navbar-nav .nav-item .nav-link:hover {
+      background: #1d2228;
+      color: #ffffff;
+      border-bottom: 0;
+    }
+     /* HEADER-ARER CSS END */
+
+
+      /* BANNER-ARER CSS START */
+      .banner_right {
+        display: none;
+    }
+       /* BANNER-ARER CSS END */
+
+
+       .deal_img img {
+        left: -17.33%;
+      }
+
+      .event_info {
+        border: 1px solid #ddd;
+        padding: 44px 0 70px 0;
+      }
+ 
+
+
+
+
+
+}
+
+
+
+
+
+/*// Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+/* HEADER-ARER CSS START */
+.navbar-light .navbar-toggler {
+  color: #fff;
+  border: 0;
+}
+.header_area .navbar-nav {
+  background: rgba(255, 255, 255, 0.95);
+  margin-top: 30px;
+}
+.header_area .navbar-nav .nav-item .nav-link {
+  font-size: 20px;
+  text-transform: capitalize;
+  padding: 15px 0;
+  color: #1d2228;
+  padding-left: 15px;
+  border-bottom: 1px solid #1d2228;
+  display: block;
+}
+.navbar .navbar-nav .nav-item .nav-link.active{
+  color: #fff;
+  background: #1d2228;
+}
+.header_area .navbar-nav .nav-item:last-child .nav-link {
+  border-bottom: 0;
+}
+.header_area .navbar-nav .nav-item .nav-link:hover {
+background: #1d2228;
+color: #ffffff;
+border-bottom: 0;
+}
+/* HEADER-ARER CSS END */
+
+
+/* BANNER-ARER CSS START */
+.banner_right {
+  display: none;
+}
+ /* BANNER-ARER CSS END */
+
+ .section_title.side_title {
+	margin-top: 30px;
+}
+
+
+ /* FOOTER-ARER CSS START */
+ .copy_menu ul li a {
+  width: 50px;
+ }
+
+
+
+
+
+
+
+
+
+}
+
+
+ 
+ 
+
+
+
+
+
+
+/*// Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+
+/* HEADER-ARER CSS START */
+.navbar-light .navbar-toggler {
+  color: #fff;
+  border: 0;
+}
+.header_area .navbar-nav {
+  background: rgba(255, 255, 255, 0.95);
+  margin-top: 30px;
+}
+.header_area .navbar-nav .nav-item .nav-link {
+  font-size: 20px;
+  text-transform: capitalize;
+  padding: 15px 0;
+  color: #1d2228;
+  padding-left: 15px;
+  border-bottom: 1px solid #1d2228;
+  display: block;
+}
+.navbar .navbar-nav .nav-item .nav-link.active{
+  color: #fff;
+  background: #1d2228;
+}
+.header_area .navbar-nav .nav-item:last-child .nav-link {
+  border-bottom: 0;
+}
+.header_area .navbar-nav .nav-item .nav-link:hover {
+background: #1d2228;
+color: #ffffff;
+border-bottom: 0;
+}
+/* HEADER-ARER CSS END */
+
+/* BANNER-ARER CSS START */
+.banner_right {
+  display: none;
+}
+ /* BANNER-ARER CSS END */
+
+ /* STORY-ARER CSS START */
+
+ .story_area .section_title h2 {
+	font-size: 34px;
+	margin-top: 20px;
+}
+
+.story_area .side_title h2::before {
+	position: absolute;
+	content: "";
+	width: 44px;
+	left: 84%;
+}
+
+.story_area .side_title h2::after {
+	position: absolute;
+	content: "";
+	width: 22px;
+	height: 1px;
+	background: #e4d2b9;
+	right: 104%;
+	top: 50%;
+}
+ /* STORY-ARER CSS END */
+
+
+/* PRODUCT-ARER CSS START */
+.product_area .full_sec h2::before {
+	position: absolute;
+	content: "";
+	width: 56px;
+	background: #b6c4a8;
+	right: 90%;
+}
+.product_area .full_sec h2::after {
+	position: absolute;
+	content: "";
+	width: 54px;
+	height: 1px;
+	background: #b6c4a8;
+	top: 50%;
+	left: 90%;
+}
+/* PRODUCT-ARER CSS END */
+
+
+/* EVENT-ARER CSS START */
+.event_area .section_title h2 {
+	font-size: 42px;
+}
+
+.event_area .full_sec h2::before {
+	position: absolute;
+	content: "";
+	width: 40px;
+	background: #e4d2b9;
+	right: 92%;
+}
+
+.event_area .full_sec h2::after {
+	position: absolute;
+	content: "";
+	width: 44px;
+	height: 1px;
+	background: #e4d2b9;
+	top: 50%;
+	left: 90%;
+}
+/* EVENT-ARER CSS END */
+
+
+/* DEAL-ARER CSS START */
+ .deal_img img {
+	position: relative;
+	left: 0px;
+	width: 100%;
+}
+.deal_area .section_title h2 {
+	font-size: 34px;
+	margin-top: 20px;
+}
+
+.deal_area .side_title h2::before {
+	width: 60px;
+	left: 90%;
+}
+
+.deal_area .side_title h2::after {
+	position: absolute;
+	content: "";
+	width: 25px;
+	height: 1px;
+	background: #e4d2b9;
+	right: 104%;
+	top: 50%;
+}
+/* DEAL-ARER CSS END*/
+
+
+/* UPDATES-ARER CSS START */
+
+.updates_area .side_title h2 {
+	font-size: 36px;
+	margin-top: 20px;
+}
+.updates_area .text-center {
+	/* text-align: center !important; */
+	text-align: left !important;
+}
+
+.updates_area .side_title h2::before {
+	position: absolute;
+	content: "";
+	width: 40px;
+	background: #b7c5a9;
+	left: 88%;
+}
+
+.updates_area .side_title h2::after {
+	position: absolute;
+	content: "";
+	width: 22px;
+	height: 1px;
+	background: #b7c5a9;
+	top: 50%;
+	right: 96%;
+}
+.post_text {
+	left: 4px;
+	right: 4px;
+}
+
+
+/* UPDATES-ARER CSS END */
+
+
+
+
+/* FOOTER-ARER CSS START */
+.justify-content-end {
+	-ms-flex-pack: end !important;
+	justify-content: center !important;
+}
+/* FOOTER-ARER CSS END */
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
